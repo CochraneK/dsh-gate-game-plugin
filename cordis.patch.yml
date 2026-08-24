@@ -1,0 +1,7 @@
+# dsh-gate-game bundle patch: register the node-half plugin entry.
+# The browser half ships via exports["./client"] and is discovered through the
+# package.json dsh.client declaration (auto-scanned into window.__DSH_BOOT__).
+
+- insert:
+    - id: gate-game
+      name: 'dsh-gate-game'
