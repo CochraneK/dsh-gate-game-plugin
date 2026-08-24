@@ -13,7 +13,7 @@ A standard **Cordis client plugin** for [DeepSeek Harness](https://github.com/de
 ## Install
 
 ```bash
-dsh plugin --profile web add github:<you>/dsh-gate-game
+dsh plugin --profile web add github:CochraneK/dsh-gate-game-plugin
 ```
 
 Or from a local checkout:
